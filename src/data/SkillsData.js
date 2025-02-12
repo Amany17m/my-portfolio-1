@@ -1,92 +1,46 @@
-import { DiJavascript1 } from "react-icons/di";
-import {
-	FaCss3Alt,
-	FaFigma,
-	FaGithub,
-	FaHtml5,
-	FaReact,
-	FaSass
-} from "react-icons/fa";
-import { RiVuejsLine } from "react-icons/ri";
-import {
-	SiAdobephotoshop,
-	SiFirebase,
-	SiFramer,
-	SiNextdotjs,
-	SiRedux,
-	SiStyledcomponents,
-	SiTailwindcss,
-	SiTypescript
-} from "react-icons/si";
-import { TbBrandReactNative } from "react-icons/tb";
+import { FaPython, FaGithub } from "react-icons/fa";
+import { SiNumpy, SiPandas, SiJupyter, SiSeaborn, SiMysql } from "react-icons/si";
+
+// Custom Matplotlib Logo Component
+const MatplotlibLogo = () => (
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg"
+    alt="Matplotlib Logo"
+    style={{ width: "2.5rem", height: "2.5rem" }}
+  />
+);
 
 export const SkillsData = [
-	{
-		name: "HTML",
-		icon: <FaHtml5 />,
-	},
-	{
-		name: "CSS",
-		icon: <FaCss3Alt />,
-	},
-	{
-		name: "Javascript",
-		icon: <DiJavascript1 />,
-	},
-	{
-		name: "TypeScript",
-		icon: <SiTypescript />,
-	},
-	{
-		name: "React Js",
-		icon: <FaReact />,
-	},
-	{
-		name: "Next Js",
-		icon: <SiNextdotjs />,
-	},
-	{
-		name: "Vue Js",
-		icon: <RiVuejsLine />, 
-	},
-	{
-		name: "React Native",
-		icon: <TbBrandReactNative />,
-	},
-	{
-		name: "Redux",
-		icon: <SiRedux />,
-	},
-	{
-		name: "Firebase",
-		icon: <SiFirebase />,
-	},
-	{
-		name: "Tailwind",
-		icon: <SiTailwindcss />,
-	},
-	{
-		name: "Sass",
-		icon: <FaSass />,
-	},
-	{
-		name: "Styled Components",
-		icon: <SiStyledcomponents />,
-	},
-	{
-		name: "Framer Motion",
-		icon: <SiFramer />,
-	},
-	{
-		name: "Git",
-		icon: <FaGithub />,
-	},
-	{
-		name: "Figma",
-		icon: <FaFigma />,
-	},
-	{
-		name: "Photoshop",
-		icon: <SiAdobephotoshop />,
-	},
+  {
+    name: "Python",
+    icon: <FaPython />,
+  },
+  {
+    name: "SQL",
+    icon: <SiMysql />, // MySQL icon represents SQL
+  },
+  {
+    name: "Pandas",
+    icon: <SiPandas />,
+  },
+  {
+    name: "NumPy",
+    icon: <SiNumpy />,
+  },
+  {
+    name: "Matplotlib",
+    icon: <MatplotlibLogo />,
+  },
+  {
+    name: "GitHub",
+    icon: <FaGithub />,
+  },
+  {
+    name: "Jupyter Notebooks",
+    icon: <SiJupyter />,
+  },
+  {
+    name: "Seaborn",
+    icon: <SiSeaborn />,
+  },
 ];

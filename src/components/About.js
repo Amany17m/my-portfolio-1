@@ -21,9 +21,9 @@ const About = () => {
                   </motion.div>
                   <div className="split-about">
                     <motion.div initial={{x: '-100%', opacity: 0}} whileInView={horizontal} className="about-content">
-                        <p>Hello! My name is Peace and I enjoy creating things that live on the internet. My interest in web development started back in 2018 when I decided to try out for my first school project — turns out putting together a simple website taught me a lot about HTML & CSS! </p>
+                        <p>Embarking on the journey of data science has been an exciting adventure. Over the past year, I've delved into the world of data, transforming complex datasets into meaningful insights. My academic background has provided me with a solid foundation in statistical analysis and programming. </p>
                         <br />
-                        <p> Since then, I've had the opportunity to collaborate with some talented professionals, which has sharpened my skills and helped me grow faster. These days, I'm all about building accessible and inclusive digital products that make a difference. I also enjoy dabbling in design and illustration whenever I can.</p>
+                        <p> This experience has allowed me to work on diverse projects, from analyzing social media trends to developing predictive models for academic performance. Each project has not only honed my technical skills but also deepened my appreciation for the stories data can tell. As I continue to explore the vast landscape of data science, I am eager to contribute to innovative solutions that drive informed decision-making.</p>
                     </motion.div>
                     <motion.div initial={{x: '50', opacity: 0}} whileInView={horizontal}  className='about-img'>
                         <img src={ProfileImg} alt="Profile" />

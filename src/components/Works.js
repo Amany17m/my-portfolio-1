@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/Works.css";
 import { motion } from "framer-motion";
-import { ReactData, ReactNativeData, VueData } from "../data/WorkData";
+import { ReactData } from "../data/WorkData"; // Ensure ReactData contains data for Web Scraping and Employee System Management
 import WorkCard from "./WorkCard";
 
 const Works = () => {
@@ -15,9 +15,7 @@ const Works = () => {
 	};
 
 	const tabData = [
-		{ id: "react", label: "React", data: ReactData },
-		{ id: "vue", label: "Vue", data: VueData },
-		{ id: "react-native", label: "React Native", data: ReactNativeData },
+		{ id: "react", label: "Projects", data: ReactData }, // Ensure ReactData includes the relevant projects
 	];
 
 	return (
