@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/my-portfolio-1/static/css/main.6db60c7d.css",
+    "main.js": "/my-portfolio-1/static/js/main.fcf6c379.js",
+    "static/media/profile_me.jpg": "/my-portfolio-1/static/media/profile_me.596e81d6cd5b4649ad0c.jpg",
+    "static/media/Amany_Data_Scientist.pdf": "/my-portfolio-1/static/media/Amany_Data_Scientist.b8140f02539acd73d064.pdf",
+    "static/media/hero-bg-1.jpg": "/my-portfolio-1/static/media/hero-bg-1.5a3233c0bcb06a691fe2.jpg",
+    "index.html": "/my-portfolio-1/index.html",
+    "main.6db60c7d.css.map": "/my-portfolio-1/static/css/main.6db60c7d.css.map",
+    "main.fcf6c379.js.map": "/my-portfolio-1/static/js/main.fcf6c379.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6db60c7d.css",
+    "static/js/main.fcf6c379.js"
+  ]
+}
