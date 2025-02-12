@@ -1,6 +1,7 @@
 import { FaPython, FaGithub } from "react-icons/fa";
 import { SiNumpy, SiPandas, SiJupyter, SiSeaborn, SiMysql } from "react-icons/si";
 
+
 // Custom Matplotlib Logo Component
 const MatplotlibLogo = () => (
   <img
