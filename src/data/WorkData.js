@@ -4,8 +4,8 @@ export const ReactData = [
 				title: "Web Scraping",
 				desc: "A web app showcasing techniques and tools for extracting data from websites.",
 				tech: ["React.js", "Axios", "APIs", "TailwindCss", "Cheerio"],
-				gitlink: "//https://github.com/Amany17m/Web-scraing",
-				site: "//https://github.com/Amany17m/Web-scraing",
+				gitlink: "https://github.com/Amany17m/Web-scraing",
+				site: "https://github.com/Amany17m/Web-scraing",
 			},
 			{
 				title: "Employee System Management",

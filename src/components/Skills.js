@@ -76,7 +76,7 @@ const Skills = () => {
           className="heading"
         >
           <p className="heading-sub-text">What I work with</p>
-          <p className="heading-text">My Skills</p>
+          <p className="heading-text">My Tools</p>
         </motion.div>
         <motion.div
           whileInView={skillEffect}
